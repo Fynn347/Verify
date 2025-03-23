@@ -74,11 +74,11 @@
     <script>
         // Die Client-ID deines Discord-Bots und die Redirect-URL (die du in den Discord Developer Settings eingestellt hast)
         const clientId = "1353382853991338085"; // Ersetze dies mit deiner tatsächlichen Client-ID
-        const redirectUri = "https%3A%2F%2Fmeine-website.de%2Fdiscord"; // Ersetze dies mit der tatsächlichen URL deiner Website
+        const redirectUri = "https://discord.com/oauth2/authorize?client_id=1353382853991338085&response_type=code&redirect_uri=https%3A%2F%2Ffynn347.github.io%2FVerify%2F&scope=identify+guilds.join"; // Ersetze dies mit der tatsächlichen URL deiner Website
 
         function verify() {
             // Der OAuth2-Link für die Verifizierung
-            const authUrl = `https://discord.com/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=identify+guilds.join`;
+            const authUrl = `https://discord.com/oauth2/authorize?client_id=${1353382853991338085}&redirect_uri=${https://discord.com/oauth2/authorize?client_id=1353382853991338085&response_type=code&redirect_uri=https%3A%2F%2Ffynn347.github.io%2FVerify%2F&scope=identify+guilds.join}&response_type=code&scope=identify+guilds.join`;
             // Umleitung zur Verifizierungsseite
             window.location.href = authUrl;
         }
